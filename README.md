@@ -9,6 +9,7 @@ Here's a table of problems I've solved, including the problem number, name, and 
 | Problem Number | Name                  | Problem Link                                           | Solution Link          |
 |----------------|-----------------------|-------------------------------------------------------|------------------------|
 | 001            | Multiples of 3 and 5   | [View Problem](https://projecteuler.net/problem=1)    | [View Solution](problem01)|
+| 002            | Even Fibonacci Numbers   | [View Problem](https://projecteuler.net/problem=2)    | [View Solution](problem02)|
 
 
 ## Disclaimer
