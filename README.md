@@ -1,6 +1,6 @@
 # Project Euler Solutions
 
-Welcome to my repository of solutions for [Project Euler](https://projecteuler.net/) problems. This repository contains my approaches to solving various computational problems posed by Project Euler.
+Welcome to my repository of solutions for [Project Euler](https://projecteuler.net/) problems. This repository contains my approaches to solving  computational problems posed by Project Euler.
 
 ## Problem Index
 
