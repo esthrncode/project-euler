@@ -2,15 +2,17 @@ def sum_of_even_fibonacci(limit):
     a, b = 1, 2 # first two Fibonacci numbers
     sum_even = 2 # the sum = first even number
 
-    while True:
+    
+    while a + b <= limit:
         c = a + b # compute the next Fibonacci number
-
-        if c > limit: 
-            break # break the loop if number is exceed the limit
+            
         if c % 2 == 0:
             sum_even += c # if 'c' is even, add it to the sum
         
-        # set the next pair
+        if c > limit: 
+            break # break the loop if number is exceed the limit
+    
+    # set the next pair
         a = b
         b = c
 
