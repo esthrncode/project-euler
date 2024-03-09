@@ -13,8 +13,7 @@ def sum_of_even_fibonacci(limit):
             break # break the loop if number is exceed the limit
     
     # set the next pair
-        a = b
-        b = c
+        a, b = b, c
 
     return sum_even
 
