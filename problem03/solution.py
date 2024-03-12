@@ -1,5 +1,3 @@
-import numpy as np
-
 # Solution 1
 
 def largest_prime_factor(n):
