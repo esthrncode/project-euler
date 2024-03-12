@@ -21,7 +21,7 @@ Here's a table of problems I've solved, including the problem number, name, and 
 | 001            | Multiples of 3 and 5   | [View Problem](https://projecteuler.net/problem=1)    | [View Solution](problem01)|
 | 002            | Even Fibonacci Numbers   | [View Problem](https://projecteuler.net/problem=2)    | [View Solution](problem02)|
 | 003            | Even Fibonacci Numbers   | [View Problem](https://projecteuler.net/problem=3)    | [View Solution]((problem03))|
-| 004            | Even Fibonacci Numbers   | [View Problem](https://projecteuler.net/problem=4)    | [View Solution]((problem04))|
+| 004            | Even Fibonacci Numbers   | [View Problem](https://projecteuler.net/problem=4)    | [View Solution](problem03/solution.py)|
 
 
 ## Disclaimer
