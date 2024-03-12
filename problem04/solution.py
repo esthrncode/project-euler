@@ -1,3 +1,5 @@
+from timeit import default_timer as timer
+
 def is_palindrome(n):
     return str(n) == str(n)[::-1] # converts n to string and compares n to its palindrome
 
@@ -13,3 +15,7 @@ def find_largest_palindrome():
                 break
     return largest_palindrome
 print(find_largest_palindrome())
+
+start = timer() 
+end = timer()
+print(end - start)
