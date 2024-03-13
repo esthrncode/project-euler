@@ -12,7 +12,7 @@ The LCM is the smallest number that is a multiple of two or more integers. The f
 LCM(a, b) = |a * b| / GCD(a, b)
 ```
 In Python there is a library for GCD, 
-```bash
+```python
 from math import gcd
 ```
 so we dont need to write the fomular for GCD in our code. But if you want to, here is the code for GCD:

@@ -21,7 +21,7 @@ $$(\sum_{i=1}^{n} i)^2 = (\frac{n(n+1)}{2})^2$$
 $$\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}$$
 
 These formulas allow us to directly compute the required values without explicit iteration.
-```bash
+```python
 def sum_square_difference(n):
     square_of_sum = (n * (n + 1) // 2) ** 2
     sum_of_squares = n * (n + 1) * (2 * n + 1) // 6
