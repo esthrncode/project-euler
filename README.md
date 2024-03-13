@@ -20,8 +20,12 @@ Here's a table of problems I've solved, including the problem number, name, and 
 |----------------|-----------------------|-------------------------------------------------------|------------------------|
 | 001            | Multiples of 3 and 5   | [View Problem](https://projecteuler.net/problem=1)    | [View Solution](problem01)|
 | 002            | Even Fibonacci Numbers   | [View Problem](https://projecteuler.net/problem=2)    | [View Solution](problem02)|
-| 003            | Largest Prime Factor   | [View Problem](https://projecteuler.net/problem=3)    | [View Solution]((problem03))|
-| 004            | Largest Palindrome Product   | [View Problem](https://projecteuler.net/problem=4)    | [View Solution](problem03/solution.py)|
+| 003            | Largest Prime Factor   | [View Problem](https://projecteuler.net/problem=3)    | [View Solution](problem03)|
+| 004            | Largest Palindrome Product   | [View Problem](https://projecteuler.net/problem=4)    | [View Solution](problem04)|
+ 005            | Smallest Multiple   | [View Problem](https://rojecteuler.net/problem=5)    | [View Solution](problem05)|
+ 006            | Sum Square Difference   | [View Problem](https://rojecteuler.net/problem=6)    | [View Solution](problem06)|
+
+
 
 
 ## Disclaimer

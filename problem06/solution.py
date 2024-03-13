@@ -9,8 +9,7 @@ def sum_of_squares(n: int) -> int: #calculate the squares of each of the first n
 def difference(n: int) -> int: #difference between these two values
     return square_of_sum(n) - sum_of_squares(n)
 
-# first 100 natural numbers
-n = 100
+n = 100 # first 100 natural numbers
 
 start_time = time.time()
 print(difference(n)) #print result
