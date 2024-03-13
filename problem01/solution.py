@@ -1,4 +1,5 @@
-# Solution 1 by using loop
+# brute-force approach
+
 def sum_of_multiples(max_number):
     sum = 0
     for number in range(1, max_number):  # number is from 1 to max_number-1
@@ -8,7 +9,7 @@ def sum_of_multiples(max_number):
 
 # but if we consider a time complexity of O(N) (based on Big O notation) which isn't efficient for large numbers, so I tried to make it become O(1)
 
-#Solution 2 by using arithmetic series formula
+# optimal solution by using arithmetic series formula
 
 def arithmetic_sum(a, max_number):
     n = (max_number - 1) // a #find the total number in the series
