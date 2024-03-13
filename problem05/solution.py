@@ -2,7 +2,7 @@ import time
 from math import gcd 
 
 # brute-force approach
-def is_divisible(number):
+def is_divisible(number: int) -> int:
     # checks if 'number' is divisible by all numbers from 1 to 20
     for divisor in range(1, 21):
         if number % divisor != 0:
@@ -22,7 +22,7 @@ def lcm(a, b):
     # calculate the least common multiple (LCM) using the greatest common divisor (GCD)
     return a * b // gcd(a, b)
 
-def smallest_multiple_optimized(n):
+def smallest_multiple_optimized(n: int) -> int:
     smallest_mult = 1
     for i in range(2, n + 1): # loop through numbers 2 to n
         smallest_mult = lcm(smallest_mult, i) # update 'smallest_mult' with the LCM of itself and the current number 'i'
