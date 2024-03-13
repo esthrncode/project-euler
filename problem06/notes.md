@@ -15,10 +15,10 @@ For `n = 100`, what is this difference?
 The brute-force approach would involve iterating through each number to calculate the sums and their squares. However, mathematics offers us a more elegant solution:
 
 - **Square of the Sum**:
-$$ (\sum_{i=1}^{n} i)^2 = (\frac{n(n+1)}{2})^2 $$
+$$(\sum_{i=1}^{n} i)^2 = (\frac{n(n+1)}{2})^2$$
 
 - **Sum of the Squares**:
-  $$ \sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6} $$
+$$\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}$$
 
 These formulas allow us to directly compute the required values without explicit iteration.
 ```bash
