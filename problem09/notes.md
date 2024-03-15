@@ -7,6 +7,8 @@ We need to find a specific set of three numbers, known as a Pythagorean triplet,
 - Each of the numbers is a positive integer.
 - They fit the rule `a^2 + b^2 = c^2`
 - They add up to 1000: `a + b + c = 1000`.
+  
+It ask us to find the product `abc`
 
 ### Strategy for Solving the Problem
 
