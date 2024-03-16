@@ -1,10 +1,24 @@
-for a in range(1, 333):
-    for b in range(a + 1, 500):  # b is more than a and less than 500 since a+b+c=1000 and a<b<c
-        c = 1000 - a - b
-        if a**2 + b**2 == c**2:
-            print(a, b, c) 
-            print(a*b*c)
-            break  # once the correct triplet is found, we don't need to search further
-    else:
-        continue
-    break  # break the outer loop if the triplet is found
+# brute-force approach
+
+def find_pythagorean_triplet(sum_of_triplet):
+    for a in range(1, sum_of_triplet // 3):
+        for b in range(a, sum_of_triplet // 2):
+            c = sum_of_triplet - a - b
+            if a * a + b * b == c * c:
+                return [a, b, c]
+    return None
+
+def product_of_triplet(triplet):
+    if triplet:
+        return triplet[0] * triplet[1] * triplet[2]
+    return None
+
+triplet = find_pythagorean_triplet(10000)
+product = product_of_triplet(triplet)
+
+if triplet:
+    print(f"The Pythagorean triplet is {triplet} and its product is {product}.")
+else:
+    print("No Pythagorean triplet found.")
+
+

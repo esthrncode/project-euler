@@ -6,7 +6,7 @@ This note explains two  approaches to solving Problem 1 from Project Euler: find
 
 The first approach is to use a simple loop to iterate over each number up to 1000 and accumulate the sum of numbers that are multiples of 3 or 5.
 
-```bash
+```python
 def sum_of_multiples(max_number):
     sum = 0
     for number in range(1, max_number):  # number is from 1 to max_number-1
@@ -40,7 +40,7 @@ where:
 
 In problem 1, the series consists of multiples of 3, 5, and their least common multiple, 15. To avoid double-counting the multiples of 3 and 5 that are also multiples of 15, the sum of multiples of 15 is subtracted from the total.
 
-```bash
+```python
 def arithmetic_sum(a, max_number):
     n = (max_number - 1) // a #find the total number in the series
     b = a * n #find the last number in the series

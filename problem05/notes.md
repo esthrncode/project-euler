@@ -16,7 +16,7 @@ In Python there is a library for GCD,
 from math import gcd
 ```
 so we dont need to write the fomular for GCD in our code. But if you want to, here is the code for GCD:
-```bash
+```python
 def gcd(a: int, b: int) -> int:
     r = b % a 
     while r > 0:
@@ -27,7 +27,7 @@ def gcd(a: int, b: int) -> int:
 ```
 #### Performanve Measurement
 We can measure the code run time by 
-```bash
+```python
 import time
 
 start_time = time.time()
