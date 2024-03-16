@@ -1,6 +1,6 @@
 # brute-force approach
 
-def find_pythagorean_triplet(sum_of_triplet):
+def find_pythagorean_triplet(sum_of_triplet: int) -> int:
     for a in range(1, sum_of_triplet // 3):
         for b in range(a, sum_of_triplet // 2):
             c = sum_of_triplet - a - b
