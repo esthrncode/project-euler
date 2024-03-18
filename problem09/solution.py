@@ -1,24 +1,21 @@
 # brute-force approach
 
-def find_pythagorean_triplet(sum_of_triplet: int) -> int:
-    for a in range(1, sum_of_triplet // 3):
-        for b in range(a, sum_of_triplet // 2):
-            c = sum_of_triplet - a - b
-            if a * a + b * b == c * c:
-                return [a, b, c]
+import time
+
+def find_pythagorean_triplet(target_sum):
+    for a in range(1, target_sum // 3):
+        for b in range(a, target_sum // 2):
+            c = target_sum - a - b
+            if a**2 + b**2 == c**2:
+                return a, b, c
     return None
 
-def product_of_triplet(triplet):
-    if triplet:
-        return triplet[0] * triplet[1] * triplet[2]
-    return None
-
-triplet = find_pythagorean_triplet(10000)
-product = product_of_triplet(triplet)
+target_sum = 1000
+triplet = find_pythagorean_triplet(target_sum)
 
 if triplet:
-    print(f"The Pythagorean triplet is {triplet} and its product is {product}.")
+    a, b, c = triplet
+    print(a*b*c)
 else:
-    print("No Pythagorean triplet found.")
-
+    print("No Pythagorean triplet found")
 
