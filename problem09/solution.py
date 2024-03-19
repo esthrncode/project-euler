@@ -1,7 +1,5 @@
 # brute-force approach
 
-import time
-
 def find_pythagorean_triplet(target_sum):
     for a in range(1, target_sum // 3):
         for b in range(a, target_sum // 2):
