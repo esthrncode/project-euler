@@ -12,7 +12,7 @@ def is_prime(n: int)-> bool:
 def sum_primes(limit: int)-> int:
     return sum([i for i in range(2, limit) if is_prime(i)])
 # start = time.time()
-# print(sum_primes(2000000)) '''not recommended'''
+# print(sum_primes(2000000)) '''not recommended run time is too long,'''
 # end = time.time()
 # print("Time:", end - start)
 
