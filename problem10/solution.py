@@ -16,3 +16,5 @@ start = time.time()
 print(sum_primes(2000000))
 end = time.time()
 print("Time:", end - start)
+
+# optimal approach
