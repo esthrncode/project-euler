@@ -1,7 +1,6 @@
 # brute-force approach
 import time
 import math
-from tracemalloc import start
 def is_prime(n: int)-> bool:
     if n <= 1:
         return False
