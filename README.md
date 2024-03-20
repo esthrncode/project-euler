@@ -25,6 +25,7 @@ Here's a table of problems I've solved, including the problem number, name, and 
  005            | Smallest Multiple   | [View Problem](https://rojecteuler.net/problem=5)    | [View Solution](problem05)|
  006            | Sum Square Difference   | [View Problem](https://rojecteuler.net/problem=6)    | [View Solution](problem06)|
  007            | 10001st Prime   | [View Problem](https://rojecteuler.net/problem=7)    | [View Solution](problem07)|
+ 008            | Largest Product in a Series   | [View Problem](https://rojecteuler.net/problem=8)    | [View Solution](problem08)|
  009            | Special Pythagorean Triplet   | [View Problem](https://rojecteuler.net/problem=9)    | [View Solution](problem09)|
  010            | Summation of Primes   | [View Problem](https://rojecteuler.net/problem=10)    | [View Solution](problem10)|
 
