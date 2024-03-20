@@ -2,7 +2,7 @@
 
 from time import perf_counter
 
-def find_greatest_product(number, k):
+def find_greatest_product(number, k: int) -> int:
     digit_list = [int(digit) for digit in str(number)]
     
     max_product = 0
@@ -16,7 +16,7 @@ def find_greatest_product(number, k):
     
     return max_product
 
-number_str = "73167176531330624919225119674426574742355349194934"  # Add the rest of the number given in the problem
+number_str = "73167176531330624919225119674426574742355349194934"  
 k = 4  
 
 start_time = perf_counter()
