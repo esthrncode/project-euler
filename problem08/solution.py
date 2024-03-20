@@ -3,14 +3,14 @@ from time import perf_counter
 # brute-force approach
 
 def find_greatest_product(number_str, k: int) -> int:
-    clean_str = number_str.replace(" ", "") 
-    clean_str = clean_str.replace("\n", "")
+    clean_str = number_str.replace(" ", "") # remove spaces
+    clean_str = clean_str.replace("\n", "") # remove newlines
     max_product = 0
         
     for i in range(len(clean_str) - k + 1):
         product = 1
         for j in range(k):
-            product *= int(clean_str[i + j])
+            product *= int(clean_str[i + j]) # convert to int before multiplying
         
         max_product = max(max_product, product)
     
