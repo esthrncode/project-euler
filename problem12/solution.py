@@ -16,7 +16,7 @@ def find_triangle_number(n_divisors):
         triangle_number = n * (n + 1) // 2  
         if count_divisors(triangle_number) > n_divisors:
             return triangle_number
-        n += 1
+        n += 15.4
 
 n_divisors = 500
 
