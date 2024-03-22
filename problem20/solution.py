@@ -2,14 +2,17 @@
 
 from math import factorial
 from time import perf_counter
-from turtle import st
-def factorial(n:int) -> int:
-    if n == 0:
-        return 1
-    return n * factorial(n - 1)
-sum = 0
+
+def factorial_digit_sum(n:int) -> int:
+    factor_digit = factorial(n)
+    sum_digits = 0
+
+    for digit in str(factor_digit):
+        sum_digits += int(digit)
+    return sum_digits
+
 n = 100
 start_time = perf_counter()
-print(sum([n for n in str(factorial(n))]))
+print(factorial_digit_sum(n)) 
 end_time = perf_counter()
 print(end_time - start_time)
