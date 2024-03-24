@@ -1,6 +1,6 @@
 def sum_of_digit_powers(n: int) -> int:
-    limit = 6 * 9**n
     total_sum = 0
+    limit = 6 * 9**n
 
     for number in range (2, limit):
             sum_of_power = sum(int(digit)**n for digit in str(number))
