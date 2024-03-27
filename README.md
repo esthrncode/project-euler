@@ -28,7 +28,10 @@ Here's a table of problems I've solved, including the problem number, name, and 
  008            | Largest Product in a Series   | [View Problem](https://rojecteuler.net/problem=8)    | [View Solution](problem08)|
  009            | Special Pythagorean Triplet   | [View Problem](https://rojecteuler.net/problem=9)    | [View Solution](problem09)|
  010            | Summation of Primes   | [View Problem](https://rojecteuler.net/problem=10)    | [View Solution](problem10)|
-
+ 012            | Highly Divisible Triangular Number   | [View Problem](https://rojecteuler.net/problem=12)    | [View Solution](problem12)|
+ 014            | Longest Collatz Sequence   | [View Problem](https://rojecteuler.net/problem=14)    | [View Solution](problem20)|
+  020            | Factorial Digit Sum   | [View Problem](https://rojecteuler.net/problem=20)    | [View Solution](problem14)|
+  030            | Digit Fifth Power   | [View Problem](https://rojecteuler.net/problem=30)    | [View Solution](problem30)|
 ## Disclaimer
 
 This repository is shared for educational purposes. All problems are credited to [Project Euler](https://projecteuler.net/).
